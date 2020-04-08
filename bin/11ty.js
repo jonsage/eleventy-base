@@ -2,10 +2,10 @@
 
 console.log('Yay 11ty!');
 
-const { spawn } = require('child_process');
+// const { spawn } = require('child_process');
 
-let watcher = spawn('npm', ['run', 'build']);
+// let watcher = spawn('npm', ['run', 'build']);
 
-watcher.stdout.on('data', (data) => {
-	console.log(`${data}`);
-});
+// watcher.stdout.on('data', (data) => {
+// 	console.log(`${data}`);
+// });

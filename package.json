@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"bin": "./bin/11ty.js",
 	"scripts": {
-		"build": "eleventy --quiet"
+		"build": "npx @11ty/eleventy"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^0.10.0"

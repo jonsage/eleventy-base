@@ -24,7 +24,7 @@ console.log('cwd', cwd);
 // 	}
 // });
 
-let watcher = spawn('npx @11ty/eleventy --serve');
+let watcher = spawn('npx', ['@11ty/eleventy', '--serve']);
 
 watcher.stdout.on('data', (data) => {
 	console.log(`${data}`);

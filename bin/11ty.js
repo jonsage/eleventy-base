@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-console.log('Yay 11ty!', process.cwd(), __dirname));
+console.log('Yay 11ty!', process.cwd(), __dirname);
 
 const { spawn } = require('child_process');
 

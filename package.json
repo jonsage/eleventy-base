@@ -1,5 +1,8 @@
 {
-  "name": "eleventy-base",
-  "version": "0.0.0",
-  "bin": "./bin/11ty.js"
+	"name": "eleventy-base",
+	"version": "0.0.0",
+	"bin": "./bin/11ty.js",
+	"scripts": {
+		"serve": "npx @11ty/eleventy --serve"
+	}
 }

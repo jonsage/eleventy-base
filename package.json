@@ -1,0 +1,11 @@
+{
+	"name": "Eleventy Base",
+	"version": "0.0.0",
+	"bin": "./bin/index.js",
+	"scripts": {
+		"build": "eleventy --quiet"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^0.10.0"
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"name": "Eleventy Base",
 	"version": "0.0.0",
-	"bin": "./bin/index.js",
+	"bin": "./bin/11ty.js",
 	"scripts": {
 		"build": "eleventy --quiet"
 	},

@@ -1,1 +1,5 @@
-{"name": "npx-is-cool", "version": "0.0.0", "bin": "./bin/11ty.js"}
+{
+  "name": "eleventy-base",
+  "version": "0.0.0",
+  "bin": "./bin/11ty.js"
+}
